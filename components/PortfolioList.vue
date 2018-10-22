@@ -1,22 +1,29 @@
 <template>
 <div>
        <section class="section">
-        <div class="container">
-            <div v-for="item in porfolioitems" :key="item.id" v-if="item.id === 1" class="columns">
-                <div class="column">
+        <div class="container portfoliolist-container">
+            <div v-for="item in porfolioitems" :key="item.id" v-if="item.id === 1" class="columns portfolio-columns">
+                <div class="column  is-four-fifiths portfolio-image-card">
                     <figure class="image is-480x480">
                         <img :src="item.img" :alt="item.title">
                     </figure>
                 </div>
-              <div  class="column">
-                <h2>{{item.title}}</h2>
-                <span><p>{{item.tags[0]}} {{item.tags[1]}} </p></span>
+              <div class="column is-two-fifiths portfolio-excerpt-card has-dropshadow">
+                <h2 class="is-size-2">{{item.title}}</h2>
+                <span class="portfolio-tags"><p>{{item.tags[0]}} {{item.tags[1]}} </p></span>
                 <p>{{item.excerpt}}</p>
+                <nuxt-link :to="`/portfolioitem/${item.id}`" > Se projekt </nuxt-link>
               </div>
             </div>
         </div>
+      <nuxt-link class="is-uppercase has-text-centered"  to="/portfolio">Flere projekter </nuxt-link>
     </section>
 </div>
+
+   
+
+
+
 </template>
 
 <script>

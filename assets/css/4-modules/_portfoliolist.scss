@@ -1,0 +1,35 @@
+.portfoliolist-container {
+    padding: 122px 0px;
+    .portfolio-columns {
+        align-items: center;
+    }
+    
+  .portfolio-image-card {
+    position: relative;
+    width: 60%;
+    display: flex;
+    flex: none;
+    img {
+      height: 500px;
+      width: 750px;
+      object-fit: cover;
+    }
+  }
+  .portfolio-excerpt-card {
+    position: absolute;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    right: 0;
+    background-color: #fff;
+    padding: 52px 52px 52px 52px;
+  }
+  .portfolio-tags {
+      p {
+          color: $secondary-color;
+          text-transform: uppercase;
+          font-weight: bold;
+      }
+  }
+}
