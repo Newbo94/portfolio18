@@ -1,0 +1,36 @@
+footer {
+  background-color: $footer-background;
+
+  .social-media-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 22px 0px;
+    a {
+      background: transparent;
+      svg {
+        color: #fff;
+      }
+    }
+  }
+
+  .footer-menu {
+      padding: 42px 0px;
+      display: flex;
+      justify-content: space-between;
+      align-content: center;
+    .custom-footer--link {
+      height: 45px;
+      width: 30px;
+    }
+    a {
+      background: transparent;
+    }
+  }
+
+  .is-copyright {
+    display: flex;
+    justify-content: center;
+    opacity: 0.5;
+    padding-bottom: 1rem;
+  }
+}
