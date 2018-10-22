@@ -2,7 +2,7 @@
 <div>
        <section class="section">
         <div class="container portfoliolist-container">
-            <div v-for="item in porfolioitems" :key="item.id" v-if="item.id === 1" class="columns portfolio-columns">
+            <div v-for="item in porfolioitems" :key="item.id" v-if="item.id == 1" class="columns portfolio-columns">
                 <div class="column  is-four-fifiths portfolio-image-card">
                     <figure class="image is-480x480">
                         <img :src="item.img" :alt="item.title">
@@ -16,7 +16,9 @@
               </div>
             </div>
         </div>
+        <div class="portfolio-link">
       <nuxt-link class="is-uppercase has-text-centered"  to="/portfolio">Flere projekter </nuxt-link>
+      </div>
     </section>
 </div>
 

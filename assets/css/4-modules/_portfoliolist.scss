@@ -15,6 +15,7 @@
       object-fit: cover;
     }
   }
+ 
   .portfolio-excerpt-card {
     position: absolute;
     width: 50%;
@@ -32,4 +33,9 @@
           font-weight: bold;
       }
   }
+}
+
+.portfolio-link {
+  display: flex;
+  justify-content: center;
 }
