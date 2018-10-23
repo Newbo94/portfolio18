@@ -2,4 +2,14 @@
     .single-portfolio-card-box {
     padding: 52px;
     }
+
+    .portfolio-tags {
+        display: flex;
+          p {
+              color: $secondary-color;
+              text-transform: uppercase;
+              font-weight: bold;
+              margin-right: 10px;
+          }
+      }
 }

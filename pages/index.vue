@@ -1,6 +1,5 @@
 <template>
 <div>
-  <contactbox/>
   <section class="hero custom-hero">
     <div class="hero-body is-vertical-center">
       <section class="container has-text-centered">
@@ -12,7 +11,7 @@
           <h2 class="is-size-4 is-uppercase primary-font is-bold has-text-weight-bold has-text-white "> Ui/ux design </h2>
           <div class="custom-cta-hero">
           <nuxt-link class="has-text-white" to="/portfolio">Portfolio</nuxt-link>
-          <nuxt-link class="has-text-white" to="/about">Hire me</nuxt-link>
+          <a class="has-text-white" href="mailto:jannilas@gmail.com">Hire me</a>
           </div>
       </section>    
     </div>
@@ -25,7 +24,7 @@
             <div class="   column is-four-fifiths">
               <h2 class=" is-uppercase has-text-centered is-size-1 has-underline has-text-weight-bold">Om mig</h2>
                 <p>
-                  Hej! Mit navn er Jan-Nilas, jeg er 23 år gammel og står i starten af min karriere som Frontend webudvikler. Jeg er oprindelig fra Tyskland og har boet i Danmark i 19 år. Jeg er opvokset tosproget og behersker både dansk og tysk på modersmål niveau. Til dagligt læser jeg til webudvikler på UCL i Odense. Jeg er nu på 2. Semester og er derfor på jagt efter en praktikplads til mit 3. Semester.
+                  Hej! Mit navn er Jan-Nilas, jeg er 23 år gammel og står i starten af min karriere som Frontend webudvikler. Jeg er oprindelig fra Tyskland og har boet i Danmark i 21 år. Jeg er opvokset tosproget og behersker både dansk og tysk på modersmål niveau. Til dagligt læser jeg til webudvikler på UCL i Odense. Jeg er nu på 2. Semester og er derfor på jagt efter en praktikplads til mit 3. Semester.
                 </p>
                 <a href="">Hent cv </a>
             </div>
@@ -113,12 +112,10 @@
 
 <script>
 import axios from "axios";
-import contactbox from "@/components/ContactBox.vue";
 import portfoliolist from "@/components/PortfolioList.vue";
 
 export default {
   components: {
-    contactbox,
     portfoliolist
   },
 

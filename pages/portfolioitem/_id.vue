@@ -1,14 +1,17 @@
 <template>
 <div>
     <hero />
+
     <section class="section single-portfolio" v-if="portfolioitem">
         <div class="container">
-            <div class="columns">
-                <div class="column is-6 has-dropshadow single-portfolio-card-box">
+            <div class="columns"> 
+                <div class="column is-6">
+                <div class="has-dropshadow single-portfolio-card-box">
                  <h1 class="is-size-2"> {{portfolioitem.title}}  </h1>
-                 <p> {{portfolioitem.tags}}</p>
+                <span class="portfolio-tags"><p v-for="item in portfolioitem.tags" :key="item.id">{{item}}</p></span>  
                 <p>{{portfolioitem.bodytext}} </p>
-
+                </div>
+            <nuxt-link class="is-uppercase has-text-centered"  to="/portfolio">Flere projekter </nuxt-link>
                 </div>
                 <div class="column is-6">
                     <figure class="image is-480x480">
