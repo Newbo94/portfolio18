@@ -27,6 +27,12 @@
 
 <script>
 export default {
+
+    watch: {
+    '$route' () {
+      document.getElementById("myNav").style.width = "0%";
+    }
+  },
     methods: {
         openNav: function () {
             document.getElementById('myNav').style.width = "100%";
