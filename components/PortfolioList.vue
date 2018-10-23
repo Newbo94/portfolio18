@@ -12,7 +12,7 @@
                 <h2 class="is-size-2">{{item.title}}</h2>
                 <span class="portfolio-tags"><p>{{item.tags[0]}} {{item.tags[1]}} </p></span>
                 <p>{{item.excerpt}}</p>
-                <nuxt-link :to="`/portfolioitem/${item.id}`" > Se projekt </nuxt-link>
+                <div class="portfolio-singlelink"><nuxt-link :to="`/portfolioitem/${item.id}`" > Se projekt </nuxt-link></div>
               </div>
             </div>
         </div>

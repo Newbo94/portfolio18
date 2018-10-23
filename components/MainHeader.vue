@@ -14,9 +14,9 @@
         <div id="myNav" class="overlay">
         <a href="javascript:void(0)" class="closebtn" v-on:click="closeNav">&times;</a>
         <div class="overlay-content">
-             <nuxt-link  to="/">HOME</nuxt-link>
-          <nuxt-link  to="/portfolio">PORTFOLIO</nuxt-link>
-            <a href="mailto:jannilas@gmail.com" target="_blank">KONTAKT</a>
+             <nuxt-link class="is-size-2" to="/">HOME</nuxt-link>
+          <nuxt-link  class="is-size-2" to="/portfolio">PORTFOLIO</nuxt-link>
+            <a class="is-size-2" href="mailto:jannilas@gmail.com" target="_blank">KONTAKT</a>
             
         </div>
         </div>
