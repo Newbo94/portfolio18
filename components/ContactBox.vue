@@ -29,6 +29,13 @@ a {
     background: transparent;
 }
     }
+
+
+    @media screen and (max-width:768px) {
+        .contact-icon-box {
+            right: 10px;
+        }
+    }
 </style>
 
 

@@ -1,9 +1,9 @@
 .has-pattern::before {
-  content: '';
+  content: "";
   position: absolute;
-  background-image: url('~assets/images/tic-tac-toe.svg');
+  background-image: url("~assets/images/tic-tac-toe.svg");
   height: 158px;
-  width: 15 0px;
+  width: 150px;
   background-size: cover;
   z-index: 50;
 }
@@ -130,11 +130,11 @@
 }
 
 .tech-skill-container {
- padding: 100px 0px 200px 0px;
+  padding: 100px 0px 200px 0px;
   .custom-tech-skill {
     justify-content: flex-end;
     flex-direction: column;
-  } 
+  }
 }
 
 .instagram-container {
@@ -150,8 +150,8 @@
   }
   .instagram-post-container {
     display: grid;
-    grid-template-columns: 1fr 1fr; 
-    a{
+    grid-template-columns: 1fr 1fr;
+    a {
       background: none;
     }
   }
@@ -173,4 +173,65 @@
     left: 0;
     right: 0;
   }
+}
+
+/* Responsive elements*/
+
+@media screen and (max-width: 768px) {
+  .has-heading-bg::before {
+    display: none;
+  }
+
+  .has-pattern::before {
+    display: none;
+  }
+  .about-container .is-about-text-container {
+    position: relative;
+    padding: 0px 22px 52px 22px;
+  }
+  .about-columns {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .about-container h2 {
+    margin-top: 0px;
+    padding-top: 22px;
+  }
+
+  .skills-container {
+    .tab-container {
+      flex-direction: column;
+      padding: 0px 10px;
+      width: 100%;
+    }
+    .tab-btn {
+      padding: 20px 0px;
+      button {
+        padding: 10px 0px;
+      }
+    } 
+    
+  }
+
+  .portfoliolist-container { 
+    padding: 0px;
+    .portfolio-columns {
+    .portfolio-image-card{
+      width: 100%;
+
+  } 
+  .portfolio-excerpt-card {
+    position: relative;
+    width: 100%;
+    padding: 32px 22px 32px 22px;
+    margin-top: -52px;
+  }}
+}
+
+.instagram-container { 
+  .instagram-post-container {
+    grid-template-columns: 1fr;
+}
+}
 }

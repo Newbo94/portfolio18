@@ -18,11 +18,11 @@
   </section>
   <section class="section  about-container">
     <div class="container has-heading-bg">
-      <div class="columns has-pattern ">
+      <div class="columns about-columns">
         <div class="column is-three-fifths has-dropshadow is-about-text-container">
           <div class="columns ">
-            <div class="   column is-four-fifiths">
-              <h2 class=" is-uppercase has-text-centered is-size-1 has-underline has-text-weight-bold">Om mig</h2>
+            <div class="  has-pattern  column is-four-fifiths">
+              <h2 class=" is-uppercase has-text-centered  is-size-1 is-size-2-mobile has-underline has-text-weight-bold">Om mig</h2>
                 <p>
                   Hej! Mit navn er Jan-Nilas, jeg er 23 år gammel og står i starten af min karriere som Frontend webudvikler. Jeg er oprindelig fra Tyskland og har boet i Danmark i 21 år. Jeg er opvokset tosproget og behersker både dansk og tysk på modersmål niveau. Til dagligt læser jeg til webudvikler på UCL i Odense. Jeg er nu på 2. Semester og er derfor på jagt efter en praktikplads til mit 3. Semester.
                 </p>
@@ -41,7 +41,7 @@
   <section class="skills-container ">
       <div class="container has-heading-bg">
           <div class="title">
-            <h3 class="is-uppercase has-text-centered is-size-1 has-underline has-text-weight-bold"> Mine <br /> Færdigheder </h3>
+            <h3 class="is-uppercase has-text-centered is-size-2-mobile is-size-1 has-underline has-text-weight-bold"> Mine <br /> Færdigheder </h3>
           </div>
       </div>
        <div class="hero  skills-container-bg">
@@ -83,7 +83,7 @@
 
 
 <div class="portfolio">  
- <h3 class="is-uppercase has-text-centered is-size-1 has-underline has-text-weight-bold has-heading-bg"> Projekter </h3>
+ <h3 class="is-uppercase has-text-centered is-size-2-mobile  is-size-1 has-underline has-text-weight-bold has-heading-bg"> Projekter </h3>
   <portfoliolist >
   </portfoliolist> 
 </div>
@@ -92,7 +92,7 @@
 
   <section class="section">
     <div class="container  instagram-container">
-      <h3 class="is-uppercase has-heading-bg has-text-centered is-size-1 has-underline has-text-weight-bold">Instagram</h3>
+      <h3 class="is-uppercase has-heading-bg has-text-centered is-size-2-mobile  is-size-1 has-underline has-text-weight-bold">Instagram</h3>
       <template v-if="grams.length > 0">
         <div class="instagram-post-container">
         <div class="instagram-single-post" v-for="gram in grams.slice(0,4)" v-bind:key="gram">
