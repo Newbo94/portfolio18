@@ -12,4 +12,19 @@
               margin-right: 10px;
           }
       }
+
+      
+}
+
+@media screen and (max-width: 768px) {
+    .single-portfolio {
+        .portfolio-item {
+            flex-direction: column-reverse;
+            display: flex;
+        }
+        .single-portfolio-card-box {
+            padding: 32px;
+            margin-bottom: 32px;
+        }
+    }         
 }

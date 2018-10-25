@@ -3,7 +3,7 @@
     <hero />
 
        <section class="section">
-   <h1 class="is-uppercase has-heading-bg has-text-centered is-size-1 has-underline has-text-weight-bold">Mine<br> projekter</h1>
+   <h1 class="is-uppercase has-heading-bg has-text-centered is-size-1 is-size-2-mobile has-underline has-text-weight-bold">Mine<br> projekter</h1>
         <div class="container portfoliolist-container">
             <div v-for="item in porfolioitems" :key="item.id" class="columns portfolio-columns">
                 <div class="column  is-four-fifiths portfolio-image-card">

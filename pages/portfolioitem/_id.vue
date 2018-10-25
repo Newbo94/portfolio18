@@ -4,7 +4,7 @@
 
     <section class="section single-portfolio" v-if="portfolioitem">
         <div class="container">
-            <div class="columns"> 
+            <div class="columns portfolio-item"> 
                 <div class="column is-6">
                 <div class="has-dropshadow single-portfolio-card-box">
                  <h1 class="is-size-2"> {{portfolioitem.title}}  </h1>

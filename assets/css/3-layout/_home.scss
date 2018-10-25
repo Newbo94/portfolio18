@@ -210,28 +210,33 @@
       button {
         padding: 10px 0px;
       }
-    } 
-    
+    }
   }
 
-  .portfoliolist-container { 
-    padding: 0px;
-    .portfolio-columns {
-    .portfolio-image-card{
-      width: 100%;
+  .section {
+    .portfoliolist-container {
+      padding: 0px;
+      .portfolio-columns {
+        .portfolio-image-card {
+          width: 100%;
+        }
+        .portfolio-excerpt-card {
+          position: relative;
+          width: 100%;
+          padding: 32px 22px 32px 22px;
+          margin-top: -52px;
+        }
+      }
+      
+    }
 
-  } 
-  .portfolio-excerpt-card {
-    position: relative;
-    width: 100%;
-    padding: 32px 22px 32px 22px;
-    margin-top: -52px;
-  }}
-}
-
-.instagram-container { 
-  .instagram-post-container {
-    grid-template-columns: 1fr;
-}
-}
+    .portfolio-link {
+      padding-top: 45px;
+    }
+    .instagram-container {
+      .instagram-post-container {
+        grid-template-columns: 1fr;
+      }
+    }
+  }
 }
