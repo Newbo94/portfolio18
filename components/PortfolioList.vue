@@ -10,7 +10,7 @@
                 </div>
               <div class="column is-two-fifiths portfolio-excerpt-card has-dropshadow">
                 <h2 class="is-size-2">{{item.title}}</h2>
-                 <span class="portfolio-tags"><p v-for="item in item.tags" :key="item.id">{{item}}</p></span>
+                 <span class="portfolio-tags"><p v-for="item in item.tags" :key="item.id"> | {{item}} | </p></span>
                 <p>{{item.excerpt}}</p>
                 <div class="portfolio-singlelink"><nuxt-link :to="`/portfolioitem/${item.id}`" > Se projekt </nuxt-link></div>
               </div>

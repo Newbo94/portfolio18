@@ -8,7 +8,7 @@
                 <div class="column is-6">
                 <div class="has-dropshadow single-portfolio-card-box">
                  <h1 class="is-size-2"> {{portfolioitem.title}}  </h1>
-                <span class="portfolio-tags"><p v-for="item in portfolioitem.tags" :key="item.id">{{item}}</p></span>  
+                <span class="portfolio-tags"><p v-for="item in portfolioitem.tags" :key="item.id"> | {{item}} | </p></span>  
                 <p>{{portfolioitem.bodytext}} </p>
                 </div>
             <nuxt-link class="is-uppercase has-text-centered"  to="/portfolio">Flere projekter </nuxt-link>
