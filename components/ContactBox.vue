@@ -1,11 +1,13 @@
 <template>
-    <div class="contact-icon-box">
-        <a  href="mailto:jannilas@gmail.com">
-        <div >
-              <img src="~/assets/images/contact-icon.svg" alt="Contact Icon">  
-          </div>
-          </a>
-    </div>
+  <div class="contact-icon-box">
+    <a href="mailto:jannilas@gmail.com">
+      <div >
+        <img 
+          src="~/assets/images/contact-icon.svg" 
+          alt="Contact Icon">  
+      </div>
+    </a>
+  </div>
 </template>
 
 <style lang="scss">

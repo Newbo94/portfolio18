@@ -1,9 +1,7 @@
 <template>
-    <section>
-        <div class="hero main-hero">
-
-        </div>
-    </section>
+  <section>
+    <div class="hero main-hero"/>
+  </section>
 </template>
 
 <script>

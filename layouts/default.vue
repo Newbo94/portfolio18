@@ -3,7 +3,7 @@
     <mainheader />
   
     <nuxt/>
-      <contact />
+    <contact />
     <mainfooter/>
   </div>
 </template>
