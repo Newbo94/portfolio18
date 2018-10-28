@@ -109,15 +109,10 @@
         </div>
       </div>
     </section>
-
-
     <div class="portfolio">  
       <h3 class="is-uppercase has-text-centered is-size-2-mobile  is-size-1 has-underline has-text-weight-bold has-heading-bg"> Projekter </h3>
       <portfoliolist /> 
     </div>
- 
-
-
     <section class="section">
       <div class="container  instagram-container">
         <h3 class="is-uppercase has-heading-bg has-text-centered is-size-2-mobile  is-size-1 has-underline has-text-weight-bold">Instagram</h3>
@@ -169,7 +164,7 @@ export default {
       grams: [],
       next_url: "",
       error: false,
-      limit: 5,
+      limit: 5
     };
   },
   computed: {
@@ -181,12 +176,7 @@ export default {
     this.getGrams();
   },
 
- 
-
   methods: {
-    
-
-
     getGrams() {
       axios
         .get(this.url + "?access_token=" + this.access_token)
@@ -212,7 +202,7 @@ export default {
           this.error = true;
         });
     }
-  },
+  }
 };
 </script>
 

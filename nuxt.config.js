@@ -38,6 +38,7 @@ module.exports = {
   ** Plugins to load before mounting the App
   */
   plugins: [
+
   ],
 
   /*
@@ -77,6 +78,9 @@ module.exports = {
   */
   build: {
     postcss: {
+      'autoprefixer': {
+        browsers: ['last 2 versions', 'ie >= 9']
+      },
       preset: {
         features: {
           customProperties: false

@@ -59,15 +59,12 @@
     methods: {
         getItemById() {
             let itemId = this.$route.params.id;
-            console.log(typeof itemId);
             axios 
             .get("/data/portfolio.json")
             .then(response => {this.portfolioitem = response.data.find(r => r.id === itemId);
-             console.log(this.portfolioitem);
             
             
             })
-            .catch(error => console.log(error));
             
            
         }
