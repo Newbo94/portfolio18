@@ -1,41 +1,45 @@
 html {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 /* Scroll bar styling */
 ::-webkit-scrollbar {
-    width: 5px;
+  width: 5px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-    background: $primary-color; 
+  background: $primary-color;
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: $cta-color; 
+  background: $cta-color;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: $cta-color; 
+  background: $cta-color;
 }
 
 body {
-    font-family: $text-font !important;
-    overflow: hidden;
+  font-family: $text-font !important;
+  overflow: hidden;
 }
 
-h1,h2,h3,h4,h5,h6 {
-    font-family: "Butler";
-    font-weight: $weight-bold;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Butler";
+  font-weight: $weight-bold;
 }
 
 .has-underline {
-    &::after {
-
-    content: '';
+  &::after {
+    content: "";
     background-color: $secondary-color;
     display: block;
     width: 50px;
@@ -43,51 +47,72 @@ h1,h2,h3,h4,h5,h6 {
     margin: auto;
     height: 6px;
     margin-bottom: 1rem;
-    }
-
+  }
 }
 
 p {
-   color: $text-color;
-   font-family: $text-font;
-   font-weight: 400;
-   font-size: 1rem;
-   opacity: 0.7;
-   line-height: 1.8rem;
+  color: $text-color;
+  font-family: $text-font;
+  font-weight: 400;
+  font-size: 1rem;
+  opacity: 0.7;
+  line-height: 1.8rem;
 }
 
 .primary-font {
-    font-family: $text-font;
+  font-family: $text-font;
 }
 
 a {
-    text-transform: uppercase;
-    font-weight: bold;
-    letter-spacing: 0.15rem;
-    display: inline-block;
-    background: -moz-linear-gradient(top, rgba(255,36,116,0) 49%, rgba(255,36,116,0.5) 50%, rgba(255,36,116,0.5) 100%);
-    background: -webkit-linear-gradient(top, rgba(255,36,116,0) 49%,rgba(255,36,116,0.5) 50%,rgba(255,36,116,0.5) 100%);
-    background: linear-gradient(to bottom, rgba(255,36,116,0) 49%,rgba(255,36,116,0.5) 50%,rgba(255,36,116,0.5) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ff2474', endColorstr='#ff2474',GradientType=0 );
-    position: relative;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.15rem;
+  display: inline-block;
+  background: -webkit-gradient(
+    linear,
+    left top, left bottom,
+    color-stop(49%, rgba(255, 36, 116, 0)),
+    color-stop(50%, rgba(255, 36, 116, 0.5)),
+    to(rgba(255, 36, 116, 0.5))
+  );
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 36, 116, 0) 49%,
+    rgba(255, 36, 116, 0.5) 50%,
+    rgba(255, 36, 116, 0.5) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ff2474', endColorstr='#ff2474',GradientType=0 );
+  position: relative;
 }
 
-
 a:hover {
-    background: rgb(255,36,116);
-    background: -moz-linear-gradient(top, rgba(255,36,116,0.5) 0%, rgba(255,36,116,0.5) 100%);
-    background: -webkit-linear-gradient(top, rgba(255,36,116,0.5) 0%,rgba(255,36,116,0.5) 100%);
-    background: linear-gradient(to bottom, rgba(255,36,116,0.5) 0%,rgba(255,36,116,0.5) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff2474', endColorstr='#ff2474',GradientType=0 );
-    transition: 0.2s ease;
+  background: rgb(255, 36, 116);
+  background: -webkit-gradient(
+    linear,
+    left top, left bottom,
+    from(rgba(255, 36, 116, 0.5)),
+    to(rgba(255, 36, 116, 0.5))
+  );
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 36, 116, 0.5) 0%,
+    rgba(255, 36, 116, 0.5) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff2474', endColorstr='#ff2474',GradientType=0 );
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
 }
 
 .is-vertical-center {
-    display: flex;
-    align-items: center;
-  }
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
 
-  .has-dropshadow {
-      box-shadow: 0px 15px 85px rgba(0,0,0,0.16);
-  }
-
+.has-dropshadow {
+  -webkit-box-shadow: 0px 15px 85px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 15px 85px rgba(0, 0, 0, 0.16);
+}

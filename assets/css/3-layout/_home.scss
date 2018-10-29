@@ -9,6 +9,8 @@
 }
 
 .custom-hero {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(42, 54, 59, 0.85)), to(rgba(42, 54, 59, 0.85))),
+    url("~assets/images/nature-forest-trees-fog.jpg");
   background: linear-gradient(rgba(42, 54, 59, 0.85), rgba(42, 54, 59, 0.85)),
     url("~assets/images/nature-forest-trees-fog.jpg");
   height: 95vh;
@@ -47,9 +49,15 @@
   }
   .is-about-img-container {
     position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex: 1 !important;
-    justify-content: flex-end;
+    -webkit-box-flex: 1 !important;
+        -ms-flex: 1 !important;
+            flex: 1 !important;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
   }
   p {
     margin-bottom: 0.5rem;
@@ -80,6 +88,8 @@
     margin-bottom: 75px;
   }
   .skills-container-bg {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(42, 54, 59, 0.85)), to(rgba(42, 54, 59, 0.85))),
+      url(~assets/images/fog-forest-mountain-world-clouds-158672.jpg);
     background: linear-gradient(rgba(42, 54, 59, 0.85), rgba(42, 54, 59, 0.85)),
       url(~assets/images/fog-forest-mountain-world-clouds-158672.jpg);
     background-position: center;
@@ -87,8 +97,12 @@
     padding: 220px 0px;
     width: 100%;
     background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     background-attachment: fixed;
   }
   .tabcontent {
@@ -99,9 +113,16 @@
     }
   }
   .tab-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     button {
       border-color: transparent;
       border-style: none;
@@ -125,16 +146,24 @@
   }
 
   .tab-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-around;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
 }
 
 .tech-skill-container {
   padding: 100px 0px 200px 0px;
   .custom-tech-skill {
-    justify-content: flex-end;
-    flex-direction: column;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 
@@ -159,8 +188,12 @@
   .instagram-feed-link {
     margin: auto;
     margin-top: 2rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 
@@ -191,8 +224,13 @@
     padding: 0px 22px 52px 22px;
   }
   .about-columns {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column-reverse;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
   }
 
   .about-container h2 {
@@ -202,7 +240,10 @@
 
   .skills-container {
     .tab-container {
-      flex-direction: column;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
       padding: 0px 10px;
       width: 100%;
     }
@@ -228,7 +269,6 @@
           margin-top: -52px;
         }
       }
-      
     }
 
     .portfolio-link {

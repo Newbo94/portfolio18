@@ -5,16 +5,20 @@ header {
   width: 100%;
 
   .header-topbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     max-width: 1140px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
     margin: auto;
     padding: 0px 10px;
     .social-media-header {
-        a {
-            color: #fff;
-            background: transparent;
-        }
+      a {
+        color: #fff;
+        background: transparent;
+      }
     }
   }
   .header-menu-icon {
@@ -40,6 +44,7 @@ header {
     right: 0;
     background-color: $primary-color;
     overflow-x: hidden;
+    -webkit-transition: 0.5s;
     transition: 0.5s;
   }
 
@@ -56,10 +61,10 @@ header {
     text-decoration: none;
     color: #818181;
     display: block;
+    -webkit-transition: 0.3s;
     transition: 0.3s;
     background: transparent;
   }
-
 
   .overlay a:hover,
   .overlay a:focus {

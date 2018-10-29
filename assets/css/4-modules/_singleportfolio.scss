@@ -1,30 +1,35 @@
 .single-portfolio {
-    .single-portfolio-card-box {
+  .single-portfolio-card-box {
     padding: 52px;
+  }
+
+  .portfolio-tags {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    p {
+      color: $secondary-color;
+      text-transform: uppercase;
+      font-weight: bold;
+      margin-right: 10px;
     }
-
-    .portfolio-tags {
-        display: flex;
-          p {
-              color: $secondary-color;
-              text-transform: uppercase;
-              font-weight: bold;
-              margin-right: 10px;
-          }
-      }
-
-      
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .single-portfolio {
-        .portfolio-item {
-            flex-direction: column-reverse;
-            display: flex;
-        }
-        .single-portfolio-card-box {
-            padding: 32px;
-            margin-bottom: 32px;
-        }
-    }         
+  .single-portfolio {
+    .portfolio-item {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+      flex-direction: column-reverse;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+    }
+    .single-portfolio-card-box {
+      padding: 32px;
+      margin-bottom: 32px;
+    }
+  }
 }
