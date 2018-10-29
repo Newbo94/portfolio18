@@ -32,7 +32,7 @@
                 <p>
                   Hej! Mit navn er Jan-Nilas, jeg er 23 år gammel og står i starten af min karriere som Frontend webudvikler. Jeg er oprindelig fra Tyskland og har boet i Danmark i 21 år. Jeg er opvokset tosproget og behersker både dansk og tysk på modersmål niveau. Til dagligt læser jeg til webudvikler på UCL i Odense. Jeg er nu på 2. Semester og er derfor på jagt efter en praktikplads til mit 3. Semester.
                 </p>
-                <a href="">Hent cv </a>
+                <a href="/CV-Jan-Nilas-Gerthv2.pdf" target="_blank">Hent cv </a>
               </div>
             </div>
           </div>
