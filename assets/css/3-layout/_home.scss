@@ -200,6 +200,9 @@
   .instagram-post-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-column-gap: 45px;
+    grid-row-gap: 45px;
+    padding-top: 75px;
     a {
       background: none;
     }
@@ -254,7 +257,17 @@
   .has-heading-bg::before {
     display: none;
   }
+  .has-pattern-bottom::before {
+    display: none;
+  }
 
+  .has-pattern-top::before {
+    display: none;
+  }
+
+  .has-pattern-bottom-right::before {
+    display: none;
+  }
   .has-pattern::before {
     display: none;
   }
