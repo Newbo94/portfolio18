@@ -3,38 +3,40 @@
   "id": "1",
   "tags": ["VUE", "SASS", "BEM", "AXIOS"],
   "title": "VUE WEBSHOP",
-  "excerpt": "Hej! Mit navn er Jan-Nilas, jeg er 22 år gammel og står i starten af min karriere som webdesigner. Jeg er oprindelig fra Tyskland og har boet i Danmark i 19 år. Jeg er opvokset tosproget og behersker både dansk og tysk på modersmål niveau. Til dagligt",
-  "bodytext": "Hej! Mit navn er Jan-Nilas, jeg er 22 år gammel og står i starten af min karriere som webdesigner. Jeg er oprindelig fra Tyskland og har boet i Danmark i 19 år. Jeg er opvokset tosproget og behersker både dansk og tysk på modersmål niveau. Til dagligt læser jeg til multimediedesigner på Erhvervsakademiet Lillebælt i Odense. Jeg er nu på 3. Semester og er derfor på jagt efter en praktikplads til mit 4. Semester. Jeg brænder for UI/UX design og frontend-webudvikling, samt er jeg en kæmpe kaffejunkie. ",
+  "excerpt": "Et lille Vue projekt der blev udarbejdet i forlængelse af Modern Frontend eksamen på studiet. Siden blev udarbejdet ud fra et given design. Kravene var at udvikle siden med Vue CLI, samt udvikle en pixel perfekt side. Fokus var på at bruge SASS, BEM,",
+  "bodytext": "Et lille Vue projekt der blev udarbejdet i forlængelse af Modern Frontend eksamen på studiet. Siden blev udarbejdet ud fra et given design. Kravene var at udvikle siden med Vue CLI, samt udvikle en pixel perfekt side. Fokus var på at bruge SASS, BEM, VUE og AXIOS, samt en API til at loade produkterne.<br/><br/> Siderne der er udviklet er ”Forsiden”, ”Login siden”,  ”The Brand” og ”Produkt siden” Projektet er mit første projekt i Vue, men har givet min rigtig meget ny viden og styrket mine webudviklings kompetencer.",
   "img": "/images/webshop-project.jpg",
-  "link": ".."
+  "link": "https://mini-project.netlify.com/"
 },
 {
   "id": "2",
-  "tags": ["WORDPRESS", "API", "sass"],
+  "tags": ["WORDPRESS", "API", "JAVASCRIPT"],
   "title": "JOBVIEW",
-  "excerpt": "Hej! Mit navn er Jan-Nilas, jeg er 22 år gammel og står i starten af min karriere som webdesigner. Jeg er oprindelig fra Tyskland og har boet i Danmark i 19 år. Jeg er opvokset tosproget og behersker både dansk og tysk på modersmål niveau. Til dagligt",
-  "bodytext": "Hej! Mit navn er Jan-Nilas, jeg er 22 år gammel og står i starten af min karriere som webdesigner. Jeg er oprindelig fra Tyskland og har boet i Danmark i 19 år. Jeg er opvokset tosproget og behersker både dansk og tysk på modersmål niveau. Til dagligt læser jeg til multimediedesigner på Erhvervsakademiet Lillebælt i Odense. Jeg er nu på 3. Semester og er derfor på jagt efter en praktikplads til mit 4. Semester. Jeg brænder for UI/UX design og frontend-webudvikling, samt er jeg en kæmpe kaffejunkie. ",
+  "excerpt": "Jobview er en interaktiv jobportal, hvor det er muligt at se jobopslagene på et interaktivt kort. Projekter var mit afsluttende eksamensprojekt på multimediedesign uddannelsen og udarbejdet med 3 medstuderende. Projektet er lavet i samarbejde med HR-Skyen",
+  "bodytext": "Jobview er en interaktiv jobportal, hvor det er muligt at se jobopslagene på et interaktivt kort. Projekter var mit afsluttende eksamensprojekt på multimediedesign uddannelsen og udarbejdet med 3 medstuderende. Projektet er lavet i samarbejde med HR-Skyen, som ejer Jobview. Kravene var at lave et helt nyt design og ny udvikling af sitet. HR-Skyens systemet skulle virke som ”motor” for siden, hvor jobsene bliver hentet via en API og sat som markers på et Google Maps kort. Resten var op til os at lave. <br /> <br /> Som backend blev der brugt WordPress og siden er udviklet som custom template. Det færdige produkt er en prototype, som HR-Skyen ved ønske kunne arbejde videre på. <br/>Følg linket for at se Github repository",
   "img": "/images/jobview-project.jpg",
-  "link": ".."
+  "link": "https://github.com/Newbo94/jobview"
 },
+
 {
   "id": "3",
-  "tags": ["ELEMENTOR", "DESIGN", "WORDPRESS"],
-  "title": "VIERPUNKTEINS",
-  "excerpt": "Hej! Mit navn er Jan-Nilas, jeg er 22 år gammel og står i starten af min karriere som webdesigner. Jeg er oprindelig fra Tyskland og har boet i Danmark i 19 år. Jeg er opvokset tosproget og behersker både dansk og tysk på modersmål niveau. Til dagligt",
-  "bodytext": "Hej! Mit navn er Jan-Nilas, jeg er 22 år gammel og står i starten af min karriere som webdesigner. Jeg er oprindelig fra Tyskland og har boet i Danmark i 19 år. Jeg er opvokset tosproget og behersker både dansk og tysk på modersmål niveau. Til dagligt læser jeg til multimediedesigner på Erhvervsakademiet Lillebælt i Odense. Jeg er nu på 3. Semester og er derfor på jagt efter en praktikplads til mit 4. Semester. Jeg brænder for UI/UX design og frontend-webudvikling, samt er jeg en kæmpe kaffejunkie. ",
-  "img": "/images/vierpunkteins.jpeg",
-  "link": ".."
+  "tags": ["UMBRACO", "SASS", "RAZOR", "ASP.NET"],
+  "title": "LVS",
+  "excerpt": "LANDSFORENINGEN AF VÆRESTEDER (LVS); er en organisation der skaber fælleskaber og forandring for socialt udsatte. LVS ønskede en helt ny hjemmeside, som skulle være mere brugervenlig og få et opdateret look, samt være nem at opdatere indholdet på.",
+  "bodytext": "LANDSFORENINGEN AF VÆRESTEDER (LVS); er en organisation der skaber fælleskaber og forandring for socialt udsatte. LVS ønskede en helt ny hjemmeside, som skulle være mere brugervenlig og få et opdateret look, samt være nem at opdatere indholdet på. Projektet var semesterprojektet på 1. semester på webudvikler uddannelse og er udarbejdet med 3 medstuderende.<br/> <br/> Som backend blev der brugt Umbraco og frontenden blev der brugt SASS, Razor og JavaScript <br/> <br/>Følg linket for at Github repository",
+  "img": "/images/lvs-project.jpg",
+  "link": "https://github.com/soer792e/LVS3"
 },
 {
   "id": "4",
-  "tags": ["UMBRACO", "SASS", "RAZOR"],
-  "title": "LVS",
-  "excerpt": "Hej! Mit navn er Jan-Nilas, jeg er 22 år gammel og står i starten af min karriere som webdesigner. Jeg er oprindelig fra Tyskland og har boet i Danmark i 19 år. Jeg er opvokset tosproget og behersker både dansk og tysk på modersmål niveau. Til dagligt",
-  "bodytext": "Hej! Mit navn er Jan-Nilas, jeg er 22 år gammel og står i starten af min karriere som webdesigner. Jeg er oprindelig fra Tyskland og har boet i Danmark i 19 år. Jeg er opvokset tosproget og behersker både dansk og tysk på modersmål niveau. Til dagligt læser jeg til multimediedesigner på Erhvervsakademiet Lillebælt i Odense. Jeg er nu på 3. Semester og er derfor på jagt efter en praktikplads til mit 4. Semester. Jeg brænder for UI/UX design og frontend-webudvikling, samt er jeg en kæmpe kaffejunkie. ",
-  "img": "/images/webshop-project.jpg",
-  "link": ".."
+  "tags": ["ELEMENTOR", "DESIGN responsive", "WORDPRESS"],
+  "title": "VIERPUNKTEINS",
+  "excerpt": "Et lille frivilligt projekt for et tysk band ”Vierpunkteins”. De ønskede et redesign af deres hjemmeside og en nem måde at opdatere nyheder på siden. Siden blev lanceret i forlængelse af undvigelsen af deres første EP.",
+  "bodytext": "Et lille frivilligt projekt for et tysk band ”Vierpunkteins”. De ønskede et redesign af deres hjemmeside og en nem måde at opdatere nyheder på siden. Siden blev lanceret i forlængelse af undvigelsen af deres første EP. Fokus var på at tilpasse siden til deres visuelle identiet og skabe en side som de nemt selv ville kunne opdatere indholdet på. Siden anvender WordPress som backend og er designet med Elementor page-builder. Mit fokus lå i UI/UX-design. Samt hele setup af hjemmesiden ",
+  "img": "/images/vierpunkteins.jpeg",
+  "link": "https://vierpunkteins.de"
 }
+
 ]
 
 

@@ -13,7 +13,8 @@
               <span class="portfolio-tags"><p 
                 v-for="item in portfolioitem.tags" 
                 :key="item.id"> | {{ item }} | </p></span>  
-              <p>{{ portfolioitem.bodytext }} </p>
+              <p v-html="`${portfolioitem.bodytext }`"></p>
+              <a :href="`${portfolioitem.link}`" target="_blank"> Se projekt </a>
             </div>
             <nuxt-link 
               class="is-uppercase has-text-centered" 

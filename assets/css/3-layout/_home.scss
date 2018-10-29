@@ -24,9 +24,14 @@
   pointer-events: none;
 }
 
-
 .custom-hero {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(42, 54, 59, 0.85)), to(rgba(42, 54, 59, 0.85))),
+  background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(42, 54, 59, 0.85)),
+      to(rgba(42, 54, 59, 0.85))
+    ),
     url("~assets/images/nature-forest-trees-fog.jpg");
   background: linear-gradient(rgba(42, 54, 59, 0.85), rgba(42, 54, 59, 0.85)),
     url("~assets/images/nature-forest-trees-fog.jpg");
@@ -70,11 +75,11 @@
     display: -ms-flexbox;
     display: flex;
     -webkit-box-flex: 1 !important;
-        -ms-flex: 1 !important;
-            flex: 1 !important;
+    -ms-flex: 1 !important;
+    flex: 1 !important;
     -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
   }
   p {
     margin-bottom: 0.5rem;
@@ -105,7 +110,13 @@
     margin-bottom: 75px;
   }
   .skills-container-bg {
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(42, 54, 59, 0.85)), to(rgba(42, 54, 59, 0.85))),
+    background: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        from(rgba(42, 54, 59, 0.85)),
+        to(rgba(42, 54, 59, 0.85))
+      ),
       url(~assets/images/fog-forest-mountain-world-clouds-158672.jpg);
     background: linear-gradient(rgba(42, 54, 59, 0.85), rgba(42, 54, 59, 0.85)),
       url(~assets/images/fog-forest-mountain-world-clouds-158672.jpg);
@@ -118,8 +129,8 @@
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     background-attachment: fixed;
   }
   .tabcontent {
@@ -137,11 +148,11 @@
     height: 150px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     button {
       border-color: transparent;
       border-style: none;
@@ -169,7 +180,7 @@
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: distribute;
-        justify-content: space-around;
+    justify-content: space-around;
   }
 }
 
@@ -177,12 +188,12 @@
   padding: 100px 0px 200px 0px;
   .custom-tech-skill {
     -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 }
 
@@ -214,11 +225,10 @@
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
 }
-
 
 .portfoliolist-container {
   .has-pattern-top::before {
@@ -281,8 +291,8 @@
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
   }
 
   .about-container h2 {
@@ -294,8 +304,8 @@
     .tab-container {
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
-          -ms-flex-direction: column;
-              flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
       padding: 0px 10px;
       width: 100%;
     }
