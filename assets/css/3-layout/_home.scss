@@ -110,7 +110,7 @@
     background: linear-gradient(rgba(42, 54, 59, 0.85), rgba(42, 54, 59, 0.85)),
       url(~assets/images/fog-forest-mountain-world-clouds-158672.jpg);
     background-position: center;
-    height: auto;
+    height: 750px;
     padding: 220px 0px;
     width: 100%;
     background-size: cover;
@@ -125,6 +125,7 @@
   .tabcontent {
     white-space: normal;
     width: 700px;
+    height: auto;
     p {
       color: $primary-color;
     }
@@ -133,6 +134,7 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    height: 150px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
