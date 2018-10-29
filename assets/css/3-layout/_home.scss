@@ -1,4 +1,4 @@
-.has-pattern::before {
+.has-pattern-bottom::before {
   content: "";
   position: absolute;
   background-image: url("~assets/images/tic-tac-toe.svg");
@@ -6,7 +6,24 @@
   width: 150px;
   background-size: cover;
   z-index: 50;
+  bottom: -120px;
+  left: -75px;
+  pointer-events: none;
 }
+
+.has-pattern-top::before {
+  content: "";
+  position: absolute;
+  background-image: url("~assets/images/tic-tac-toe.svg");
+  height: 158px;
+  width: 150px;
+  background-size: cover;
+  z-index: 50;
+  top: 0px;
+  right: 0px;
+  pointer-events: none;
+}
+
 
 .custom-hero {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(42, 54, 59, 0.85)), to(rgba(42, 54, 59, 0.85))),
@@ -194,6 +211,26 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+}
+
+
+.portfoliolist-container {
+  .has-pattern-top::before {
+    left: -15px;
+    top: -75px;
+  }
+  .has-pattern-bottom-right::before {
+    content: "";
+    position: absolute;
+    background-image: url("~assets/images/tic-tac-toe.svg");
+    height: 158px;
+    width: 150px;
+    background-size: cover;
+    z-index: 50;
+    bottom: -120px;
+    right: -75px;
+    pointer-events: none;
   }
 }
 

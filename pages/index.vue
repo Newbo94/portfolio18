@@ -25,9 +25,9 @@
     <section class="section  about-container">
       <div class="container has-heading-bg">
         <div class="columns about-columns">
-          <div class="column is-three-fifths has-dropshadow is-about-text-container">
+          <div class="column has-pattern-bottom is-three-fifths has-dropshadow is-about-text-container">
             <div class="columns ">
-              <div class="  has-pattern  column is-four-fifiths">
+              <div class="column is-four-fifiths">
                 <h2 class=" is-uppercase has-text-centered  is-size-1 is-size-2-mobile has-underline has-text-weight-bold">Om mig</h2>
                 <p>
                   Hej! Mit navn er Jan-Nilas, jeg er 23 år gammel og står i starten af min karriere som Frontend webudvikler. Jeg er oprindelig fra Tyskland og har boet i Danmark i 21 år. Jeg er opvokset tosproget og behersker både dansk og tysk på modersmål niveau. Til dagligt læser jeg til webudvikler på UCL i Odense. Jeg er nu på 2. Semester og er derfor på jagt efter en praktikplads til mit 3. Semester.
@@ -37,7 +37,7 @@
             </div>
           </div>
           <div class="column is-two-fifths is-about-img-container"> 
-            <figure class="image is-480x480 has-pattern ">
+            <figure class="image is-480x480 has-pattern-top ">
               <img 
                 class="is-rounded " 
                 src="~/assets/images/jan-nilas-gerth-profile.jpg" 
