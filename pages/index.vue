@@ -74,19 +74,19 @@
               v-if="activetab === 1" 
               id="web" 
               class="web tabcontent">
-              <p> Mine webudviklings færdigheder, er først blevet udviklet på uddannelse til Multimediedesigner, hvor jeg første gang kom i berøring med HTML5 & CSS3. Jeg har siden prøvet at arbejde med forskellige sprog som C#, JavaScript, Php og nogle forskellige frontend frameworks som Vue.js. Jeg har også arbejdet i to forskellige CMS. </p>
+              <p> Mine webudviklings færdigheder, er først blevet udviklet på uddannelsen til multimediedesigner, hvor jeg første gang kom i berøring med HTML5 & CSS3. Jeg har siden arbejdet med forskellige sprog som C#, JavaScript, PHP, samt nogle forskellige frontend frameworks som Vue.js. Jeg har også udviklet i CMS Umbraco og WordPress, hvor jeg primært har arbejdet med WordPress.</p>
             </div>
             <div 
               v-else-if="activetab === 2" 
               id="concept" 
               class="web tabcontent">
-              <p>Jeg har arbejdet en del med konceptudvikling og prøvet forskellige metoder. Jeg har f.eks. arbejdet meget med Design Thinking, for at få en bedre forståelse for brugeren. I min koncept fase har jeg altid brugeren i fokus, for at udvikle den bedste mulige oplevelse for denne. </p>
+              <p>Jeg har arbejdet en del med konceptudvikling og prøvet forskellige metoder. Jeg har f.eks. arbejdet meget med Design Thinking, for at få en bedre forståelse for brugeren. I min koncept fase har jeg altid brugeren i fokus, for at udvikle den bedste mulige oplevelse for denne.  </p>
             </div>
             <div 
               v-else-if="activetab === 3" 
               id="design" 
               class="web tabcontent">
-              <p> Ligesom i mine koncept-udvikling, arbejder jeg også med brugeren på design udviklingen. Her brugeren meget tid på at skabe den hel rigtig følelse som brugeren skal opleve.  Design Thinking er den proces jeg bruger, men har også anvendt andre som f.eks. ” The Five Elements of UX”. Kompetencer i design og koncept udvikling styrker mig også i min webudviklings tilgang, jeg har en bedre forståelse for hele processen og samtidig bedre forstå en designers tankegang. </p>
+              <p> I design fasen bruger jeg meget tid på at skabe det hel rigtige design til den given målgruppe. Design Thinking er den proces jeg bruger, men har også anvendt andre som f.eks. ”The Five Elements of UX”. Kompetencer i design og koncept udvikling styrker mig også i min webudviklings tilgang. Jeg har en bedre forståelse for hele processen og samtidig bedre forstå en designers tankegang.  </p>
             </div>
           </div>
         </div>
@@ -97,7 +97,7 @@
         <div class="columns">
           <div class="column is-flex is-three-fifths custom-tech-skill">
             <h3 class="is-size-2 is-uppercase is-bold has-text-weight-bold">Tekniske <br> værktøjer</h3>
-            <p>Jeg har arbejdet med en lang række forskellige værktøjer til at optimerer min udviklingsproces. Til næsten alle projekter bruger jeg <b>Git</b>, som nok også er det værktøj jeg bruger mest. Jeg er kompetent i to CMS – <b>Umbraco & Wordpress </b>. Jeg har arbejdet mest med Wordpress hvor jeg har udvikling flere Templates, mindre plugins osv.  I frontend udvikling har jeg arbejdet med JavaScript frameworket <b>Vue.js</b>. Jeg også komptent i <b>SASS</b>, <b>Gulp</b> og arbejdet lidt med <b>Webpack</b> </p>
+            <p>Jeg har arbejdet med en lang række forskellige værktøjer til at optimerer min udviklingsproces.  Til næsten alle projekter bruger jeg <b>Git</b> til version styringJeg er kompetent i to CMS – <b>Umbraco & Wordpress </b>. Jeg har arbejdet mest med Wordpress hvor jeg har udvikling flere Templates, mindre plugins osv.  I frontend udvikling har jeg arbejdet med JavaScript frameworket <b>Vue.js</b>. Jeg også komptent i <b>SASS</b>, <b>Gulp</b> og arbejdet lidt med <b>Webpack</b> </p>
           </div>
           <div class="column is-two-fifths ">
             <figure class="image is-480x480">
